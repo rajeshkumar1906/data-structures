@@ -15,5 +15,7 @@ public class StackSample {
         System.out.println("pop stack "+items.pop());
         System.out.println("remaining stack "+items);
         System.out.println("search stack "+items.search(3));
+
+        /*Stack are used in real world like recursion , undo and redo operation of recent changes */
     }
 }
