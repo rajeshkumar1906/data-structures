@@ -14,8 +14,11 @@ public class Main {
         binarySearchTree.insert(20);
         binarySearchTree.insert(40);
 
-        binarySearchTree.preOreder(binarySearchTree.root);
-
+//        binarySearchTree.inOrder(binarySearchTree.root);
+//         binarySearchTree.traversal();
+//         binarySearchTree.searchElement(binarySearchTree.root, 40);
+         binarySearchTree.deleteNode(binarySearchTree.root, 70);
+        binarySearchTree.traversal();
 //        System.out.println("Inserted Tree are "+binarySearchTree.getRoot());
     }
 }
